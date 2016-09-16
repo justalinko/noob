@@ -136,9 +136,9 @@ def maindek():
                 elif pil=="99":
                         os.system("exit")
                 elif pil=="00":
-                        x=os.system('cat baca-aku-mas.txt')
+                        x=os.system('cat README.txt')
                         if x==True:
-                                os.system('cat baca-aku-mas.txt')
+                                os.system('cat README.txt')
                         else:
                                 print '''
                                 Menggunakan : ./noob.py
