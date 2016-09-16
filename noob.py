@@ -52,8 +52,7 @@ def AutoGantiRepo(link,cuk,cik,cok):
     os.system("rmdir "+cok)
 def AutoTerminalCantik():
     os.system("wget http://alinkoproject.com/n00b/figlet.txt")
-    os.system("mv figlet.txt .bashrc")
-    os.system("rm figlet.txt")
+    os.system("mv figlet.txt ../.bashrc")
 def maindek():
         try:
                 dek=kuning+"root"+merah+"@n00bz:~#"+hijau
